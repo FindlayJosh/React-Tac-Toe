@@ -130,6 +130,7 @@ function App() {
             }}
           />
           <Square
+          className="bottomRight"
             val={board[8]}
             chooseSquare={() => {
               chooseSquare(8);
